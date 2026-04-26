@@ -1,0 +1,10 @@
+compartment_id      = "ocid1.compartment.oc1..example"
+region              = "us-phoenix-1"
+availability_domain = "Uocm:PHX-AD-1"
+node_image_id       = "ocid1.image.oc1.phx.example"
+ssh_public_key      = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC..."
+
+# Optional overrides
+project_name        = "oke-nfs-demo"
+node_pool_size      = 1
+kubernetes_version  = "v1.29.1"
